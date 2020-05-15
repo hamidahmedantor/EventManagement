@@ -1,0 +1,8 @@
+c:\users\hp\documents\visual studio 2012\Projects\App\App\bin\Debug\App.exe.config
+c:\users\hp\documents\visual studio 2012\Projects\App\App\bin\Debug\App.exe
+c:\users\hp\documents\visual studio 2012\Projects\App\App\bin\Debug\App.pdb
+c:\users\hp\documents\visual studio 2012\Projects\App\App\obj\Debug\App.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2012\Projects\App\App\obj\Debug\MyProject.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2012\Projects\App\App\obj\Debug\App.exe
+c:\users\hp\documents\visual studio 2012\Projects\App\App\obj\Debug\App.pdb
+c:\users\hp\documents\visual studio 2012\Projects\App\App\obj\Debug\App.Homepage.resources

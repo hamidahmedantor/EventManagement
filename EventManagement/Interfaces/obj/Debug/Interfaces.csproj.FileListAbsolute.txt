@@ -1,0 +1,15 @@
+F:\movie\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.dll
+F:\movie\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.pdb
+F:\movie\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+F:\movie\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.dll
+F:\movie\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.pdb
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.dll
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Interfaces\bin\Debug\Interfaces.pdb
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.dll
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Interfaces\obj\Debug\Interfaces.pdb

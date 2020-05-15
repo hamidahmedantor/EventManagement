@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7785499F-255A-4861-AA39-B5F6F7E2D351}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ibrahim\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AD63461E8BBCE4F708EFA2BA149B2ADDF6EDA49E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>App_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About Us.Designer.cs">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin1stpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin1stpage.Designer.cs">
+      <DependentUpon>Admin1stpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_feedback.Designer.cs">
+      <DependentUpon>Admin_feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_loginpage_2.cs" />
+    <Compile Include="Adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminlogin.Designer.cs">
+      <DependentUpon>Adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Payment_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Payment_History.Designer.cs">
+      <DependentUpon>Admin_Payment_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book Status.Designer.cs">
+      <DependentUpon>Book Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Booking_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Booking_History.Designer.cs">
+      <DependentUpon>Customer_Booking_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Book_Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Book_Event.Designer.cs">
+      <DependentUpon>Customer_Book_Event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_feedback.Designer.cs">
+      <DependentUpon>Customer_feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Home.Designer.cs">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Login.Designer.cs">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_payment.Designer.cs">
+      <DependentUpon>Customer_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Profile.Designer.cs">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_View_Venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_View_Venue.Designer.cs">
+      <DependentUpon>Customer_View_Venue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cus_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cus_Register.Designer.cs">
+      <DependentUpon>Cus_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment_managment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment_managment.Designer.cs">
+      <DependentUpon>Equipment_managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food_management.Designer.cs">
+      <DependentUpon>Food_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Upcoming_Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upcoming_Event.Designer.cs">
+      <DependentUpon>Upcoming_Event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Venue_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venue_management.Designer.cs">
+      <DependentUpon>Venue_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Booking_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Booking_admin.Designer.cs">
+      <DependentUpon>View_Booking_admin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About Us.resx">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin1stpage.resx">
+      <DependentUpon>Admin1stpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminlogin.resx">
+      <DependentUpon>Adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_feedback.resx">
+      <DependentUpon>Admin_feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Payment_History.resx">
+      <DependentUpon>Admin_Payment_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book Status.resx">
+      <DependentUpon>Book Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Booking_History.resx">
+      <DependentUpon>Customer_Booking_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Book_Event.resx">
+      <DependentUpon>Customer_Book_Event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_feedback.resx">
+      <DependentUpon>Customer_feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Home.resx">
+      <DependentUpon>Customer_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Login.resx">
+      <DependentUpon>Customer_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_payment.resx">
+      <DependentUpon>Customer_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Profile.resx">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_View_Venue.resx">
+      <DependentUpon>Customer_View_Venue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cus_Register.resx">
+      <DependentUpon>Cus_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment_managment.resx">
+      <DependentUpon>Equipment_managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food_management.resx">
+      <DependentUpon>Food_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upcoming_Event.resx">
+      <DependentUpon>Upcoming_Event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Venue_management.resx">
+      <DependentUpon>Venue_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Booking_admin.resx">
+      <DependentUpon>View_Booking_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{00653ef2-fe85-44a0-9c30-fc0797667d29}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{897a7e01-7484-427a-a37e-d6e410e4db10}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repositories\Repositories.csproj">
+      <Project>{65d8a59f-fa87-4534-ae53-279b8cb3ae48}</Project>
+      <Name>Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{4dc5b850-af38-4b17-a780-7a739268afba}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.Express.11.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

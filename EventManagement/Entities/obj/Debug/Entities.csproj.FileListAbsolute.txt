@@ -1,0 +1,20 @@
+F:\movie\Event Management System\Event Management System\Entities\bin\Debug\Entities.dll
+F:\movie\Event Management System\Event Management System\Entities\bin\Debug\Entities.pdb
+F:\movie\Event Management System\Event Management System\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+F:\movie\Event Management System\Event Management System\Entities\obj\Debug\Entities.dll
+F:\movie\Event Management System\Event Management System\Entities\obj\Debug\Entities.pdb
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Entities\bin\Debug\Entities.dll
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Entities\bin\Debug\Entities.pdb
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Entities\obj\Debug\Entities.dll
+C:\Users\Mahedi Hasan\Desktop\Jahid\Event Management System\Event Management System\Entities\obj\Debug\Entities.pdb
+D:\C_Sharp\C# project\Event Management System\Event Management System\Entities\bin\Debug\Entities.dll
+D:\C_Sharp\C# project\Event Management System\Event Management System\Entities\bin\Debug\Entities.pdb
+D:\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.dll
+D:\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.pdb
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Entities\bin\Debug\Entities.dll
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Entities\bin\Debug\Entities.pdb
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.dll
+D:\6th Sem\C_Sharp\C# project\Event Management System\Event Management System\Entities\obj\Debug\Entities.pdb
